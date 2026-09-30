@@ -13,6 +13,9 @@ The API returns user data along with pagination metadata such as the total numbe
 - ✅ `has_more` indicator for additional records
 - 📦 Clean and structured JSON response
 - 📚 Automatic Swagger/OpenAPI documentation
+## Example
+- GET /users?skip=10&limit=10
+- GET /users?skip=10&limit=100
 
 ## 📦 API Response
 
